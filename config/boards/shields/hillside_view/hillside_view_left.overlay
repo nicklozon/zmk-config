@@ -23,21 +23,21 @@
 //   b-gpios = <&pro_micro 21 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
 // };
 
-&chosen {
-  zephyr,display = &nice_view;
-};
+// &chosen {
+//   zephyr,display = &nice_view;
+// };
 
 // nice view bus
-&nice_view_spi {
-  status = "okay";
-};
+// &nice_view_spi {
+//   status = "okay";
+// };
 
-&nice_view {
-  status = "okay";
-};
+// &nice_view {
+//   status = "okay";
+// };
 
 
 // Enable the input listener for the split trackpad
-&tpad_peripheral_listener {
-  status = "okay";
-};
+// &tpad_peripheral_listener {
+//   status = "okay";
+// };
